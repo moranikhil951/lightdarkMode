@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .big-container {
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini-container-dark {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  .mini-container-light {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  .darkHeading {
+    color: black;
+  }
+  .lightHeading {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mini-container-dark {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .big-container {
+    height: 100vh;
+    color: white;
+    width: 40vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini-container-light {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .darkHeading {
+    color: black;
+    font-size: 15px;
+  }
+  .lightHeading {
+    color: white;
+    font-size: 15px;
+  }
+  .rest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
